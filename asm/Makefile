@@ -1,6 +1,5 @@
-# TODO get local compiler
 CC=gcc
-CFLAGS= -c -std=gnu11 -Wall -O0 # make assembly input
+CFLAGS= -c -std=gnu11 -Wall -O0 -fomit-frame-pointer
 
 all:main.s
 

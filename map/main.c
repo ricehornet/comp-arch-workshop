@@ -9,8 +9,8 @@ const int my_exp(const int a, const int x)
     return product;
 }
 
-static int my_a = 10;
-static int my_x = 3;
+const int my_a = 10;
+const int my_x = 3;
 
 // contrived example, returns 10^3 = 1000
 int main(void)
