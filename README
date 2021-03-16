@@ -1,0 +1,20 @@
+# Computer Architecture Workshop
+
+This repository contains example code used to illustrate the process of transforming high-level code into an executable (not tested).
+
+`asm` contains an example of turning a simple program into assembly code:
+
+1. `cd asm`
+2. `make clean all`
+
+If you do not have gcc installed, please add `CC=<your compiler>` to the end of (2), for example, `make clean all CC=clang`
+
+`map` contains an example of turning a simple program into a full executable, along with assembly and map file. It is compiled with `arm-none-eabi-gcc` for an ARM
+architecture target, such as a 32-bit microcontroller. To use it:
+
+1. `cd map`
+2. `make clean all`
+
+If you do not have gcc, again please try your local compiler.
+
+Thanks!
