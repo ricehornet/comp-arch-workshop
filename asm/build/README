@@ -1,0 +1,4 @@
+This folder is for build outputs, you should not need to create any files here.
+
+Intended use is to go up one level and run `make` commands, and the output will
+be written here automatically.
